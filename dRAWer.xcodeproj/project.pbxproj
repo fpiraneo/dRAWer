@@ -13,6 +13,7 @@
 		27C5F4A724DF390200BB33AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C5F4A524DF390200BB33AD /* Main.storyboard */; };
 		27C5F4A924DF390300BB33AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C5F4A824DF390300BB33AD /* Assets.xcassets */; };
 		27C5F4AC24DF390300BB33AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C5F4AA24DF390300BB33AD /* LaunchScreen.storyboard */; };
+		27C5F4B424DF3D0600BB33AD /* PhotoCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C5F4B324DF3D0600BB33AD /* PhotoCaptureProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		27C5F4A824DF390300BB33AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C5F4AB24DF390300BB33AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C5F4AD24DF390300BB33AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C5F4B324DF3D0600BB33AD /* PhotoCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				27C5F4A824DF390300BB33AD /* Assets.xcassets */,
 				27C5F4AA24DF390300BB33AD /* LaunchScreen.storyboard */,
 				27C5F4AD24DF390300BB33AD /* Info.plist */,
+				27C5F4B324DF3D0600BB33AD /* PhotoCaptureProcessor.swift */,
 			);
 			path = dRAWer;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C5F4B424DF3D0600BB33AD /* PhotoCaptureProcessor.swift in Sources */,
 				27C5F4A424DF390200BB33AD /* ViewController.swift in Sources */,
 				27C5F4A024DF390200BB33AD /* AppDelegate.swift in Sources */,
 				27C5F4A224DF390200BB33AD /* SceneDelegate.swift in Sources */,
